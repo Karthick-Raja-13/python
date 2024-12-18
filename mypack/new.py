@@ -198,9 +198,7 @@ s.hii()
 b = Mobile("B Obj")
 
 b.hii()
-'''
 
-'''
 A -> 1
 B -> 5
 
@@ -251,7 +249,7 @@ class sample(greet,welcome):
     def func(self):
         print("Third Class")
 s.hii()
-'''
+
 class welcome():
     def __init__(self,val):
         print(val)
@@ -287,5 +285,25 @@ class bus:
         print(f"Total : {total} ")
 import json as j
 
+'''
+
+num = [1,2,3,4,5,6,7,8]
+even =[]
+odd = []
+for i in num:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+'''
+even = [i for i in num if i%2 ==0 ]
+odd =[i for i in num if i%2 !=0 ]
+
+print(even)
+print(odd)
+'''
+print(even)
+print(odd)
 
 
+#New
